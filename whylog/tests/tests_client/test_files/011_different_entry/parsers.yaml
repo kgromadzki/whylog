@@ -1,8 +1,12 @@
 ---
+class: RegexParser
+log_type : default
 name: entry
 regex: ^(\w+) entry$
 params:
     - {type: data, name: entry type}
 ---
+class: RegexParser
+log_type : default
 name: effect
 regex: ^visible effect$

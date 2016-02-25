@@ -1,9 +1,13 @@
 ---
+class: RegexParser
+log_type : default
 name: cause
 regex: ^(\d+) root cause
 params:
     - {type: time, format: '%s'}
 ---
+class: RegexParser
+log_type : default
 name: effect
 regex: ^(\d+) visible effect$
 params:

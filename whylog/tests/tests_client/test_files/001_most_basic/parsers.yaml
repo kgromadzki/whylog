@@ -1,6 +1,10 @@
 ---
+class: RegexParser
+log_type : default
 name: cause
 regex: ^root cause$
 ---
+class: RegexParser
+log_type : default
 name: effect
 regex: ^visible effect$

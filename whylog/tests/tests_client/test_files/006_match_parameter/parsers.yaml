@@ -1,9 +1,13 @@
 ---
+class: RegexParser
+log_type : default
 name: cause
 regex: ^root cause of (\w)$
 params:
     - {type: data, name: item}
 ---
+class: RegexParser
+log_type : default
 name: effect
 regex: ^visible effect on (\w)$
 params:
